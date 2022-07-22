@@ -1,0 +1,150 @@
+
+body{
+    background-color: hsl(217, 54%, 11%) ;
+    max-width: 1440px;
+}
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 23em;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    
+    font-family: 'Outfit', sans-serif;
+}
+
+.main-image img {
+    border-radius: 15px;
+    width: 20em;
+    margin-top: 30px;
+}
+
+.NFT-Name{
+text-align: left;
+margin-left: 45px;
+width: 17em;
+}
+
+.NFT-Name h2 {
+    color: white;
+}
+.NFT-Name p {
+    color: hsl(215, 51%, 70%);
+}
+
+.price {
+border-bottom: 2px solid  hsl(215, 51%, 70%);
+display: flex;
+justify-content: space-between;
+margin-left: 45px;
+margin-right: 45px;
+}
+
+.price :first-child {
+    color: hsl(178, 100%, 50%);
+}
+.price :nth-child(2) {
+    color:hsl(215, 51%, 70%);
+}
+
+.creator {
+    margin-top: 6px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 45px;
+    align-items: center;
+    gap: 10px;
+}
+.creator p {
+    margin-bottom: 32px;
+}
+.creator img {
+    width: 2em;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.white-name {
+    color: white;
+}
+p {
+    font-size: 18px;
+}
+.attribution {
+    color: hsl(215, 51%, 70%);
+}
+
+@media (max-width: 375px) {
+    .container {
+        background-color: hsl(216, 50%, 16%);
+        width: 20em;
+        border-radius: 20px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 15%;
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    .main-image img {
+        border-radius: 15px;
+        width: 17em;
+        margin-top: 30px;
+    }
+    
+    .NFT-Name{
+    text-align: left;
+    margin-left: 45px;
+    width: 15em;
+    }
+    
+    .NFT-Name h2 {
+        color: white;
+    }
+    .NFT-Name p {
+        color: hsl(215, 51%, 70%);
+    }
+    
+    .price {
+    border-bottom: 2px solid  hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+    }
+    
+    .price :first-child {
+        color: hsl(178, 100%, 50%);
+    }
+    .price :nth-child(2) {
+        color:hsl(215, 51%, 70%);
+    }
+    
+    .creator {
+        margin-top: 6px;
+        color: hsl(215, 51%, 70%);
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 45px;
+        align-items: center;
+        gap: 10px;
+    }
+    .creator p {
+        margin-bottom: 32px;
+    }
+    .creator img {
+        width: 2em;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
